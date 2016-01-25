@@ -30,6 +30,8 @@
     [task resume];
     [task1 resume];
 }
+
+
 #pragma mark - NSURLSession datadelete
 -(void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveResponse:(NSURLResponse *)response completionHandler:(void (^)(NSURLSessionResponseDisposition))completionHandler
 {
